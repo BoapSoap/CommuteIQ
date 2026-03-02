@@ -19,6 +19,7 @@ TRANSIT_AGENCY_ALIASES = {
 @dataclass(frozen=True)
 class Settings:
     api_511_key: str
+    openai_api_key: str
     allowed_origins: list[str]
     transit_agencies: list[str]
     cache_ttl_seconds: int
@@ -58,6 +59,7 @@ def get_settings() -> Settings:
 
     return Settings(
         api_511_key=os.getenv("API_511_KEY", ""),
+        openai_api_key=os.getenv("OPENAI_API_KEY", ""),
         allowed_origins=allowed_origins,
         transit_agencies=transit_agencies,
         cache_ttl_seconds=max(60, cache_ttl_seconds),

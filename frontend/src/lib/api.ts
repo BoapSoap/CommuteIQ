@@ -1,6 +1,7 @@
 import {
   CalculateRequest,
   CalculateResponse,
+  ExplainLive,
   LiveFriction,
   NeighborhoodsResponse,
 } from "@/lib/types";
@@ -34,6 +35,9 @@ async function fetchJSON<T>(path: string, init?: RequestInit): Promise<T> {
 
 export const getLiveFriction = (refresh = false) =>
   fetchJSON<LiveFriction>(refresh ? "/friction/live?refresh=true" : "/friction/live");
+
+export const getLiveExplanation = () =>
+  fetchJSON<ExplainLive>("/explain/live");
 
 export const getNeighborhoods = () =>
   fetchJSON<NeighborhoodsResponse>("/neighborhoods");

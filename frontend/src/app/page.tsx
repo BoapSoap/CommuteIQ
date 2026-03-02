@@ -2,11 +2,13 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 
-import { calculateCommute, getLiveFriction, getNeighborhoods } from "@/lib/api";
-import { CalculateResponse, LiveFriction, Recommendation } from "@/lib/types";
+import NeighborhoodMap from "@/components/NeighborhoodMap";
+import { calculateCommute, getLiveExplanation, getLiveFriction, getNeighborhoods } from "@/lib/api";
+import { CalculateResponse, ExplainLive, LiveFriction, Recommendation } from "@/lib/types";
 
 export default function Home() {
   const [live, setLive] = useState<LiveFriction | null>(null);
+  const [explanation, setExplanation] = useState<ExplainLive | null>(null);
   const [neighborhoods, setNeighborhoods] = useState<string[]>([]);
   const [calcResult, setCalcResult] = useState<CalculateResponse | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -24,15 +26,17 @@ export default function Home() {
     async function bootstrap() {
       setError("");
       try {
-        const [liveData, neighborhoodData] = await Promise.all([
+        const [liveData, neighborhoodData, explanationData] = await Promise.all([
           getLiveFriction(),
           getNeighborhoods(),
+          getLiveExplanation(),
         ]);
 
         if (!mounted) return;
 
         setLive(liveData);
         setNeighborhoods(neighborhoodData.neighborhoods);
+        setExplanation(explanationData);
         setNeighborhood((prev) => prev || neighborhoodData.neighborhoods[0] || "");
       } catch (err) {
         if (!mounted) return;
@@ -51,6 +55,11 @@ export default function Home() {
     if (!live?.last_updated) return "-";
     return new Date(live.last_updated).toLocaleString();
   }, [live?.last_updated]);
+
+  const formattedExplanationUpdated = useMemo(() => {
+    if (!explanation?.last_updated) return "-";
+    return new Date(explanation.last_updated).toLocaleString();
+  }, [explanation?.last_updated]);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -89,13 +98,13 @@ export default function Home() {
     <main className="min-h-screen px-4 py-12 md:px-12">
       <div className="mx-auto max-w-5xl space-y-6">
         <header className="space-y-2">
-          <p className="inline-block rounded-full bg-black px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-white">
-            CommuteIQ MVP
-          </p>
-          <h1 className="text-4xl font-semibold md:text-5xl">San Francisco commute friction</h1>
-          <p className="text-sm opacity-80 md:text-base">
-            Live 511 transit and traffic signals with a personal annual time-tax calculator.
-          </p>
+          <div className="rounded-2xl border border-black/10 bg-[#102820] px-6 py-8 text-white shadow-soft md:px-10 md:py-10">
+            <p className="text-5xl font-semibold tracking-tight md:text-7xl">CommuteIQ</p>
+            <p className="mt-3 max-w-2xl text-sm text-white/85 md:text-base">
+              San Francisco commute intelligence with live 511 transit and traffic signals plus a personal annual
+              time-tax calculator.
+            </p>
+          </div>
         </header>
 
         {error && (
@@ -146,6 +155,16 @@ export default function Home() {
               {isRefreshingLive ? "Refreshing..." : "Refresh snapshot"}
             </button>
             <p className="mt-2 text-xs opacity-90">Manual refresh is limited to once every 5 minutes.</p>
+          </article>
+        </section>
+
+        <section>
+          <article className="rounded-2xl border border-black/10 bg-surface p-5 shadow-soft">
+            <h2 className="text-xl font-semibold">AI Summary</h2>
+            <p className="mt-1 text-sm opacity-70">Generated at: {formattedExplanationUpdated}</p>
+            <p className="mt-4 text-sm leading-6">
+              {explanation?.summary ?? "Loading AI summary..."}
+            </p>
           </article>
         </section>
 
@@ -245,6 +264,10 @@ export default function Home() {
               </div>
             )}
           </article>
+        </section>
+
+        <section>
+          <NeighborhoodMap />
         </section>
       </div>
     </main>

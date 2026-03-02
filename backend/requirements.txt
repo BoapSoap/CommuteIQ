@@ -8,3 +8,4 @@ requests==2.32.3
 pandas==2.2.3
 geopandas==1.0.1
 shapely==2.0.6
+openai>=1.40.0,<2.0.0

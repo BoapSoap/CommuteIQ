@@ -75,3 +75,9 @@ class NeighborhoodStat(BaseModel):
 class NeighborhoodsResponse(BaseModel):
     neighborhoods: list[str]
     data: dict[str, NeighborhoodStat]
+
+
+class ExplainLiveResponse(BaseModel):
+    summary: str
+    last_updated: datetime
+    source: Literal["openai", "fallback"]

@@ -4,11 +4,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from models.schemas import (
     CalculateRequest,
     CalculateResponse,
+    ExplainLiveResponse,
     HealthResponse,
     LiveFrictionResponse,
     NeighborhoodsResponse,
 )
 from services.acs_startup import maybe_build_acs_on_startup
+from services.explain import get_live_explanation
 from services.friction import RefreshTooSoonError, get_live_friction
 from services.structural import get_settings, load_neighborhood_baselines
 
@@ -47,6 +49,11 @@ async def friction_live(refresh: bool = False) -> LiveFrictionResponse:
             status_code=429,
             detail=f"Please wait about {wait_minutes} minute(s) before refreshing again.",
         ) from exc
+
+
+@app.get("/explain/live", response_model=ExplainLiveResponse)
+async def explain_live() -> ExplainLiveResponse:
+    return await get_live_explanation(settings)
 
 
 @app.get("/neighborhoods", response_model=NeighborhoodsResponse)

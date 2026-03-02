@@ -23,6 +23,7 @@ cd backend
 ## Required env
 
 - `API_511_KEY`: your 511 API key (do not commit)
+- `OPENAI_API_KEY`: optional, enables AI summary generation for `/explain/live`
 - `ALLOWED_ORIGINS`: comma-separated origins for CORS (default includes `http://localhost:3000`)
 - `TRANSIT_AGENCIES` (optional): comma-separated 511 agency codes (default `BART,SFMTA`)
 - `CACHE_TTL_SECONDS` (optional): live friction cache duration in seconds (default `600`)
@@ -35,6 +36,7 @@ cd backend
 
 - `GET /health`
 - `GET /friction/live`
+- `GET /explain/live`
 - `GET /neighborhoods`
 - `POST /calculate`
 

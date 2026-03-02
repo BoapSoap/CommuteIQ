@@ -19,15 +19,29 @@ export interface LiveFriction {
   source: "511";
 }
 
+export interface ExplainLive {
+  summary: string;
+  last_updated: string;
+  source: "openai" | "fallback";
+}
+
 export interface NeighborhoodsResponse {
   neighborhoods: string[];
   data: Record<
     string,
     {
+      mean_commute_minutes?: number;
       transit_minutes: number;
       driving_minutes: number;
       median_income: number;
       vehicle_ownership_rate: number;
+      mode_share?: {
+        drive: number;
+        transit: number;
+        walk: number;
+        bike: number;
+        wfh: number;
+      };
     }
   >;
 }
