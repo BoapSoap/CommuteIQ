@@ -1,0 +1,1388 @@
+{
+  "Alamo Square": {
+    "mean_commute_minutes": 35.4,
+    "driving_minutes": 31.86,
+    "transit_minutes": 38.94,
+    "median_income": 183281,
+    "vehicle_ownership_rate": 0.6129,
+    "mode_share": {
+      "drive": 0.2721,
+      "transit": 0.298,
+      "walk": 0.0234,
+      "bike": 0.045,
+      "wfh": 0.3378
+    }
+  },
+  "Anza Vista": {
+    "mean_commute_minutes": 25.8,
+    "driving_minutes": 23.22,
+    "transit_minutes": 28.38,
+    "median_income": 211641,
+    "vehicle_ownership_rate": 0.854,
+    "mode_share": {
+      "drive": 0.3477,
+      "transit": 0.2059,
+      "walk": 0.0405,
+      "bike": 0.0664,
+      "wfh": 0.3118
+    }
+  },
+  "Aquatic Park / Ft. Mason": {
+    "mean_commute_minutes": 32.53,
+    "driving_minutes": 29.28,
+    "transit_minutes": 35.79,
+    "median_income": 224287,
+    "vehicle_ownership_rate": 0.7822,
+    "mode_share": {
+      "drive": 0.2827,
+      "transit": 0.2097,
+      "walk": 0.0988,
+      "bike": 0.0304,
+      "wfh": 0.3556
+    }
+  },
+  "Ashbury Heights": {
+    "mean_commute_minutes": 32.9,
+    "driving_minutes": 29.61,
+    "transit_minutes": 36.19,
+    "median_income": 200357,
+    "vehicle_ownership_rate": 0.7472,
+    "mode_share": {
+      "drive": 0.2736,
+      "transit": 0.2258,
+      "walk": 0.027,
+      "bike": 0.0715,
+      "wfh": 0.3792
+    }
+  },
+  "Bayview": {
+    "mean_commute_minutes": 29.71,
+    "driving_minutes": 26.74,
+    "transit_minutes": 32.68,
+    "median_income": 92168,
+    "vehicle_ownership_rate": 0.8458,
+    "mode_share": {
+      "drive": 0.549,
+      "transit": 0.2556,
+      "walk": 0.0218,
+      "bike": 0.0128,
+      "wfh": 0.1341
+    }
+  },
+  "Bernal Heights": {
+    "mean_commute_minutes": 29.47,
+    "driving_minutes": 26.52,
+    "transit_minutes": 32.42,
+    "median_income": 173912,
+    "vehicle_ownership_rate": 0.8348,
+    "mode_share": {
+      "drive": 0.4452,
+      "transit": 0.1415,
+      "walk": 0.0308,
+      "bike": 0.079,
+      "wfh": 0.2763
+    }
+  },
+  "Bret Harte": {
+    "mean_commute_minutes": 34.1,
+    "driving_minutes": 30.69,
+    "transit_minutes": 37.51,
+    "median_income": 80788,
+    "vehicle_ownership_rate": 0.7707,
+    "mode_share": {
+      "drive": 0.6765,
+      "transit": 0.2416,
+      "walk": 0.0,
+      "bike": 0.0071,
+      "wfh": 0.0451
+    }
+  },
+  "Buena Vista": {
+    "mean_commute_minutes": 31.4,
+    "driving_minutes": 28.26,
+    "transit_minutes": 34.54,
+    "median_income": 246989,
+    "vehicle_ownership_rate": 0.6203,
+    "mode_share": {
+      "drive": 0.2069,
+      "transit": 0.2765,
+      "walk": 0.0205,
+      "bike": 0.1254,
+      "wfh": 0.3377
+    }
+  },
+  "Candlestick Point SRA": {
+    "mean_commute_minutes": 30.1,
+    "driving_minutes": 27.09,
+    "transit_minutes": 33.11,
+    "median_income": 125327,
+    "vehicle_ownership_rate": 0.9385,
+    "mode_share": {
+      "drive": 0.6657,
+      "transit": 0.0799,
+      "walk": 0.009,
+      "bike": 0.0,
+      "wfh": 0.2112
+    }
+  },
+  "Cathedral Hill": {
+    "mean_commute_minutes": 31.02,
+    "driving_minutes": 27.92,
+    "transit_minutes": 34.12,
+    "median_income": 155889,
+    "vehicle_ownership_rate": 0.5001,
+    "mode_share": {
+      "drive": 0.2736,
+      "transit": 0.2321,
+      "walk": 0.151,
+      "bike": 0.0192,
+      "wfh": 0.2838
+    }
+  },
+  "Cayuga": {
+    "mean_commute_minutes": 34.3,
+    "driving_minutes": 30.87,
+    "transit_minutes": 37.73,
+    "median_income": 123070,
+    "vehicle_ownership_rate": 0.8201,
+    "mode_share": {
+      "drive": 0.4001,
+      "transit": 0.3482,
+      "walk": 0.0188,
+      "bike": 0.0135,
+      "wfh": 0.1919
+    }
+  },
+  "Central Waterfront": {
+    "mean_commute_minutes": 28.97,
+    "driving_minutes": 26.07,
+    "transit_minutes": 31.87,
+    "median_income": 228606,
+    "vehicle_ownership_rate": 0.7471,
+    "mode_share": {
+      "drive": 0.2431,
+      "transit": 0.1629,
+      "walk": 0.2015,
+      "bike": 0.0755,
+      "wfh": 0.2725
+    }
+  },
+  "Chinatown": {
+    "mean_commute_minutes": 30.42,
+    "driving_minutes": 27.38,
+    "transit_minutes": 33.47,
+    "median_income": 35048,
+    "vehicle_ownership_rate": 0.2446,
+    "mode_share": {
+      "drive": 0.1094,
+      "transit": 0.3044,
+      "walk": 0.3625,
+      "bike": 0.0002,
+      "wfh": 0.2087
+    }
+  },
+  "Civic Center": {
+    "mean_commute_minutes": 32.29,
+    "driving_minutes": 29.06,
+    "transit_minutes": 35.52,
+    "median_income": 115252,
+    "vehicle_ownership_rate": 0.3802,
+    "mode_share": {
+      "drive": 0.1688,
+      "transit": 0.2173,
+      "walk": 0.1635,
+      "bike": 0.0734,
+      "wfh": 0.3446
+    }
+  },
+  "Cole Valley": {
+    "mean_commute_minutes": 33.9,
+    "driving_minutes": 30.51,
+    "transit_minutes": 37.29,
+    "median_income": 176304,
+    "vehicle_ownership_rate": 0.7139,
+    "mode_share": {
+      "drive": 0.3176,
+      "transit": 0.2097,
+      "walk": 0.0765,
+      "bike": 0.0516,
+      "wfh": 0.2962
+    }
+  },
+  "Corona Heights": {
+    "mean_commute_minutes": 27.1,
+    "driving_minutes": 24.39,
+    "transit_minutes": 29.81,
+    "median_income": 240556,
+    "vehicle_ownership_rate": 0.808,
+    "mode_share": {
+      "drive": 0.2309,
+      "transit": 0.2471,
+      "walk": 0.0321,
+      "bike": 0.0384,
+      "wfh": 0.3617
+    }
+  },
+  "Cow Hollow": {
+    "mean_commute_minutes": 29.6,
+    "driving_minutes": 26.64,
+    "transit_minutes": 32.56,
+    "median_income": 242415,
+    "vehicle_ownership_rate": 0.7557,
+    "mode_share": {
+      "drive": 0.2777,
+      "transit": 0.1485,
+      "walk": 0.0822,
+      "bike": 0.0562,
+      "wfh": 0.4251
+    }
+  },
+  "Crocker Amazon": {
+    "mean_commute_minutes": 32.31,
+    "driving_minutes": 29.08,
+    "transit_minutes": 35.54,
+    "median_income": 98514,
+    "vehicle_ownership_rate": 0.8749,
+    "mode_share": {
+      "drive": 0.6078,
+      "transit": 0.2627,
+      "walk": 0.0266,
+      "bike": 0.0109,
+      "wfh": 0.0849
+    }
+  },
+  "Diamond Heights": {
+    "mean_commute_minutes": 33.83,
+    "driving_minutes": 30.44,
+    "transit_minutes": 37.21,
+    "median_income": 192746,
+    "vehicle_ownership_rate": 0.8946,
+    "mode_share": {
+      "drive": 0.3717,
+      "transit": 0.1507,
+      "walk": 0.0092,
+      "bike": 0.0167,
+      "wfh": 0.4397
+    }
+  },
+  "Dolores Heights": {
+    "mean_commute_minutes": 32.9,
+    "driving_minutes": 29.61,
+    "transit_minutes": 36.19,
+    "median_income": 202547,
+    "vehicle_ownership_rate": 0.6874,
+    "mode_share": {
+      "drive": 0.2721,
+      "transit": 0.2548,
+      "walk": 0.0591,
+      "bike": 0.0548,
+      "wfh": 0.3223
+    }
+  },
+  "Downtown / Union Square": {
+    "mean_commute_minutes": 21.8,
+    "driving_minutes": 19.62,
+    "transit_minutes": 23.98,
+    "median_income": 51964,
+    "vehicle_ownership_rate": 0.2529,
+    "mode_share": {
+      "drive": 0.1295,
+      "transit": 0.1894,
+      "walk": 0.4603,
+      "bike": 0.0,
+      "wfh": 0.1963
+    }
+  },
+  "Duboce Triangle": {
+    "mean_commute_minutes": 32.1,
+    "driving_minutes": 28.89,
+    "transit_minutes": 35.32,
+    "median_income": 159985,
+    "vehicle_ownership_rate": 0.5093,
+    "mode_share": {
+      "drive": 0.144,
+      "transit": 0.3867,
+      "walk": 0.0855,
+      "bike": 0.0447,
+      "wfh": 0.2882
+    }
+  },
+  "Eureka Valley": {
+    "mean_commute_minutes": 40.34,
+    "driving_minutes": 36.31,
+    "transit_minutes": 44.38,
+    "median_income": 216439,
+    "vehicle_ownership_rate": 0.8053,
+    "mode_share": {
+      "drive": 0.2314,
+      "transit": 0.2748,
+      "walk": 0.0482,
+      "bike": 0.026,
+      "wfh": 0.3868
+    }
+  },
+  "Excelsior": {
+    "mean_commute_minutes": 28.83,
+    "driving_minutes": 25.95,
+    "transit_minutes": 31.71,
+    "median_income": 116883,
+    "vehicle_ownership_rate": 0.8945,
+    "mode_share": {
+      "drive": 0.5466,
+      "transit": 0.2439,
+      "walk": 0.012,
+      "bike": 0.0056,
+      "wfh": 0.1722
+    }
+  },
+  "Fairmount": {
+    "mean_commute_minutes": 30.8,
+    "driving_minutes": 27.72,
+    "transit_minutes": 33.88,
+    "median_income": 222891,
+    "vehicle_ownership_rate": 0.9038,
+    "mode_share": {
+      "drive": 0.2982,
+      "transit": 0.1442,
+      "walk": 0.0328,
+      "bike": 0.0407,
+      "wfh": 0.438
+    }
+  },
+  "Financial District": {
+    "mean_commute_minutes": 24.71,
+    "driving_minutes": 22.24,
+    "transit_minutes": 27.18,
+    "median_income": 205803,
+    "vehicle_ownership_rate": 0.6394,
+    "mode_share": {
+      "drive": 0.1905,
+      "transit": 0.2123,
+      "walk": 0.3849,
+      "bike": 0.0,
+      "wfh": 0.1718
+    }
+  },
+  "Fishermans Wharf": {
+    "mean_commute_minutes": 21.9,
+    "driving_minutes": 19.71,
+    "transit_minutes": 24.09,
+    "median_income": 101974,
+    "vehicle_ownership_rate": 0.6213,
+    "mode_share": {
+      "drive": 0.1372,
+      "transit": 0.2416,
+      "walk": 0.0811,
+      "bike": 0.038,
+      "wfh": 0.4443
+    }
+  },
+  "Golden Gate Heights": {
+    "mean_commute_minutes": 33.08,
+    "driving_minutes": 29.77,
+    "transit_minutes": 36.39,
+    "median_income": 168282,
+    "vehicle_ownership_rate": 0.9366,
+    "mode_share": {
+      "drive": 0.4514,
+      "transit": 0.1352,
+      "walk": 0.032,
+      "bike": 0.0276,
+      "wfh": 0.3202
+    }
+  },
+  "Golden Gate Park": {
+    "mean_commute_minutes": 0.0,
+    "driving_minutes": 0.0,
+    "transit_minutes": 0.0,
+    "median_income": 104333,
+    "vehicle_ownership_rate": 0.4,
+    "mode_share": {
+      "drive": 0.4,
+      "transit": 0.1333,
+      "walk": 0.1667,
+      "bike": 0.0,
+      "wfh": 0.3
+    }
+  },
+  "Haight Ashbury": {
+    "mean_commute_minutes": 37.43,
+    "driving_minutes": 33.69,
+    "transit_minutes": 41.18,
+    "median_income": 175039,
+    "vehicle_ownership_rate": 0.6807,
+    "mode_share": {
+      "drive": 0.2365,
+      "transit": 0.2407,
+      "walk": 0.0717,
+      "bike": 0.0566,
+      "wfh": 0.3788
+    }
+  },
+  "Hayes Valley": {
+    "mean_commute_minutes": 30.8,
+    "driving_minutes": 27.72,
+    "transit_minutes": 33.88,
+    "median_income": 101964,
+    "vehicle_ownership_rate": 0.6307,
+    "mode_share": {
+      "drive": 0.2327,
+      "transit": 0.2629,
+      "walk": 0.0615,
+      "bike": 0.0711,
+      "wfh": 0.36
+    }
+  },
+  "Holly Park": {
+    "mean_commute_minutes": 28.6,
+    "driving_minutes": 25.74,
+    "transit_minutes": 31.46,
+    "median_income": 183902,
+    "vehicle_ownership_rate": 0.8725,
+    "mode_share": {
+      "drive": 0.3477,
+      "transit": 0.1306,
+      "walk": 0.0189,
+      "bike": 0.1605,
+      "wfh": 0.3361
+    }
+  },
+  "Hunters Point": {
+    "mean_commute_minutes": 30.1,
+    "driving_minutes": 27.09,
+    "transit_minutes": 33.11,
+    "median_income": 142321,
+    "vehicle_ownership_rate": 0.9389,
+    "mode_share": {
+      "drive": 0.5277,
+      "transit": 0.1282,
+      "walk": 0.0081,
+      "bike": 0.0175,
+      "wfh": 0.2659
+    }
+  },
+  "India Basin": {
+    "mean_commute_minutes": 30.4,
+    "driving_minutes": 27.36,
+    "transit_minutes": 33.44,
+    "median_income": 28393,
+    "vehicle_ownership_rate": 0.7589,
+    "mode_share": {
+      "drive": 0.5827,
+      "transit": 0.2146,
+      "walk": 0.05,
+      "bike": 0.0221,
+      "wfh": 0.0933
+    }
+  },
+  "Ingleside": {
+    "mean_commute_minutes": 29.34,
+    "driving_minutes": 26.41,
+    "transit_minutes": 32.28,
+    "median_income": 119095,
+    "vehicle_ownership_rate": 0.8149,
+    "mode_share": {
+      "drive": 0.5587,
+      "transit": 0.2189,
+      "walk": 0.0316,
+      "bike": 0.0125,
+      "wfh": 0.1582
+    }
+  },
+  "Ingleside Terraces": {
+    "mean_commute_minutes": 28.0,
+    "driving_minutes": 25.2,
+    "transit_minutes": 30.8,
+    "median_income": 204375,
+    "vehicle_ownership_rate": 0.9571,
+    "mode_share": {
+      "drive": 0.462,
+      "transit": 0.1613,
+      "walk": 0.0462,
+      "bike": 0.008,
+      "wfh": 0.3078
+    }
+  },
+  "Inner Richmond": {
+    "mean_commute_minutes": 34.35,
+    "driving_minutes": 30.92,
+    "transit_minutes": 37.79,
+    "median_income": 168777,
+    "vehicle_ownership_rate": 0.7815,
+    "mode_share": {
+      "drive": 0.3597,
+      "transit": 0.2127,
+      "walk": 0.0423,
+      "bike": 0.0383,
+      "wfh": 0.3162
+    }
+  },
+  "Inner Sunset": {
+    "mean_commute_minutes": 32.39,
+    "driving_minutes": 29.15,
+    "transit_minutes": 35.63,
+    "median_income": 132612,
+    "vehicle_ownership_rate": 0.6917,
+    "mode_share": {
+      "drive": 0.3174,
+      "transit": 0.3212,
+      "walk": 0.0643,
+      "bike": 0.0245,
+      "wfh": 0.2484
+    }
+  },
+  "Japantown": {
+    "mean_commute_minutes": 25.55,
+    "driving_minutes": 23.0,
+    "transit_minutes": 28.11,
+    "median_income": 146938,
+    "vehicle_ownership_rate": 0.6119,
+    "mode_share": {
+      "drive": 0.3332,
+      "transit": 0.1779,
+      "walk": 0.1053,
+      "bike": 0.0059,
+      "wfh": 0.334
+    }
+  },
+  "Laguna Honda": {
+    "mean_commute_minutes": 28.8,
+    "driving_minutes": 25.92,
+    "transit_minutes": 31.68,
+    "median_income": 238750,
+    "vehicle_ownership_rate": 0.9635,
+    "mode_share": {
+      "drive": 0.4412,
+      "transit": 0.1591,
+      "walk": 0.0204,
+      "bike": 0.0,
+      "wfh": 0.3695
+    }
+  },
+  "Lakeshore": {
+    "mean_commute_minutes": 37.3,
+    "driving_minutes": 33.57,
+    "transit_minutes": 41.03,
+    "median_income": 100583,
+    "vehicle_ownership_rate": 0.886,
+    "mode_share": {
+      "drive": 0.5428,
+      "transit": 0.0823,
+      "walk": 0.0228,
+      "bike": 0.0325,
+      "wfh": 0.3001
+    }
+  },
+  "Laurel Heights / Jordan Park": {
+    "mean_commute_minutes": 30.17,
+    "driving_minutes": 27.15,
+    "transit_minutes": 33.19,
+    "median_income": 188629,
+    "vehicle_ownership_rate": 0.8356,
+    "mode_share": {
+      "drive": 0.2899,
+      "transit": 0.2117,
+      "walk": 0.0547,
+      "bike": 0.0038,
+      "wfh": 0.4151
+    }
+  },
+  "Lincoln Park / Ft. Miley": {
+    "mean_commute_minutes": 33.9,
+    "driving_minutes": 30.51,
+    "transit_minutes": 37.29,
+    "median_income": 87494,
+    "vehicle_ownership_rate": 0.6848,
+    "mode_share": {
+      "drive": 0.4344,
+      "transit": 0.21,
+      "walk": 0.0,
+      "bike": 0.0066,
+      "wfh": 0.3353
+    }
+  },
+  "Lone Mountain": {
+    "mean_commute_minutes": 31.12,
+    "driving_minutes": 28.01,
+    "transit_minutes": 34.23,
+    "median_income": 121139,
+    "vehicle_ownership_rate": 0.7528,
+    "mode_share": {
+      "drive": 0.2933,
+      "transit": 0.2827,
+      "walk": 0.1516,
+      "bike": 0.0083,
+      "wfh": 0.2389
+    }
+  },
+  "Lower Haight": {
+    "mean_commute_minutes": 30.9,
+    "driving_minutes": 27.81,
+    "transit_minutes": 33.99,
+    "median_income": 109107,
+    "vehicle_ownership_rate": 0.5078,
+    "mode_share": {
+      "drive": 0.1853,
+      "transit": 0.2546,
+      "walk": 0.2058,
+      "bike": 0.0147,
+      "wfh": 0.3258
+    }
+  },
+  "Lower Nob Hill": {
+    "mean_commute_minutes": 23.68,
+    "driving_minutes": 21.32,
+    "transit_minutes": 26.05,
+    "median_income": 76686,
+    "vehicle_ownership_rate": 0.2705,
+    "mode_share": {
+      "drive": 0.1174,
+      "transit": 0.1999,
+      "walk": 0.3775,
+      "bike": 0.0533,
+      "wfh": 0.2113
+    }
+  },
+  "Lower Pacific Heights": {
+    "mean_commute_minutes": 30.57,
+    "driving_minutes": 27.51,
+    "transit_minutes": 33.62,
+    "median_income": 134596,
+    "vehicle_ownership_rate": 0.5089,
+    "mode_share": {
+      "drive": 0.1941,
+      "transit": 0.25,
+      "walk": 0.1234,
+      "bike": 0.0086,
+      "wfh": 0.3751
+    }
+  },
+  "Marina": {
+    "mean_commute_minutes": 32.4,
+    "driving_minutes": 29.16,
+    "transit_minutes": 35.64,
+    "median_income": 221253,
+    "vehicle_ownership_rate": 0.7697,
+    "mode_share": {
+      "drive": 0.2889,
+      "transit": 0.2064,
+      "walk": 0.0399,
+      "bike": 0.025,
+      "wfh": 0.3941
+    }
+  },
+  "McLaren Park": {
+    "mean_commute_minutes": 0.0,
+    "driving_minutes": 0.0,
+    "transit_minutes": 0.0,
+    "median_income": 13569,
+    "vehicle_ownership_rate": 0.065,
+    "mode_share": {
+      "drive": 0.5556,
+      "transit": 0.0,
+      "walk": 0.4444,
+      "bike": 0.0,
+      "wfh": 0.0
+    }
+  },
+  "Merced Heights": {
+    "mean_commute_minutes": 31.5,
+    "driving_minutes": 28.35,
+    "transit_minutes": 34.65,
+    "median_income": 127050,
+    "vehicle_ownership_rate": 0.9319,
+    "mode_share": {
+      "drive": 0.5038,
+      "transit": 0.2266,
+      "walk": 0.0084,
+      "bike": 0.0027,
+      "wfh": 0.2586
+    }
+  },
+  "Merced Manor": {
+    "mean_commute_minutes": 29.0,
+    "driving_minutes": 26.1,
+    "transit_minutes": 31.9,
+    "median_income": 161193,
+    "vehicle_ownership_rate": 0.9193,
+    "mode_share": {
+      "drive": 0.5504,
+      "transit": 0.0911,
+      "walk": 0.0237,
+      "bike": 0.0024,
+      "wfh": 0.3159
+    }
+  },
+  "Midtown Terrace": {
+    "mean_commute_minutes": 31.4,
+    "driving_minutes": 28.26,
+    "transit_minutes": 34.54,
+    "median_income": 182375,
+    "vehicle_ownership_rate": 0.8671,
+    "mode_share": {
+      "drive": 0.5956,
+      "transit": 0.0732,
+      "walk": 0.0,
+      "bike": 0.0,
+      "wfh": 0.3153
+    }
+  },
+  "Miraloma Park": {
+    "mean_commute_minutes": 28.8,
+    "driving_minutes": 25.92,
+    "transit_minutes": 31.68,
+    "median_income": 156827,
+    "vehicle_ownership_rate": 0.9553,
+    "mode_share": {
+      "drive": 0.4971,
+      "transit": 0.1502,
+      "walk": 0.0345,
+      "bike": 0.0646,
+      "wfh": 0.2296
+    }
+  },
+  "Mission": {
+    "mean_commute_minutes": 30.23,
+    "driving_minutes": 27.21,
+    "transit_minutes": 33.26,
+    "median_income": 128603,
+    "vehicle_ownership_rate": 0.6399,
+    "mode_share": {
+      "drive": 0.3201,
+      "transit": 0.2872,
+      "walk": 0.0765,
+      "bike": 0.0575,
+      "wfh": 0.2413
+    }
+  },
+  "Mission Bay": {
+    "mean_commute_minutes": 33.97,
+    "driving_minutes": 30.58,
+    "transit_minutes": 37.37,
+    "median_income": 222610,
+    "vehicle_ownership_rate": 0.7141,
+    "mode_share": {
+      "drive": 0.1823,
+      "transit": 0.1933,
+      "walk": 0.19,
+      "bike": 0.0223,
+      "wfh": 0.3938
+    }
+  },
+  "Mission Dolores": {
+    "mean_commute_minutes": 29.46,
+    "driving_minutes": 26.51,
+    "transit_minutes": 32.4,
+    "median_income": 0,
+    "vehicle_ownership_rate": 0.528,
+    "mode_share": {
+      "drive": 0.176,
+      "transit": 0.2297,
+      "walk": 0.0771,
+      "bike": 0.0935,
+      "wfh": 0.4028
+    }
+  },
+  "Mission Terrace": {
+    "mean_commute_minutes": 32.95,
+    "driving_minutes": 29.66,
+    "transit_minutes": 36.25,
+    "median_income": 158404,
+    "vehicle_ownership_rate": 0.92,
+    "mode_share": {
+      "drive": 0.3834,
+      "transit": 0.262,
+      "walk": 0.0125,
+      "bike": 0.0088,
+      "wfh": 0.2446
+    }
+  },
+  "Nob Hill": {
+    "mean_commute_minutes": 27.19,
+    "driving_minutes": 24.47,
+    "transit_minutes": 29.91,
+    "median_income": 98674,
+    "vehicle_ownership_rate": 0.3651,
+    "mode_share": {
+      "drive": 0.1485,
+      "transit": 0.184,
+      "walk": 0.3269,
+      "bike": 0.0034,
+      "wfh": 0.2999
+    }
+  },
+  "Noe Valley": {
+    "mean_commute_minutes": 32.39,
+    "driving_minutes": 29.15,
+    "transit_minutes": 35.63,
+    "median_income": 196953,
+    "vehicle_ownership_rate": 0.8626,
+    "mode_share": {
+      "drive": 0.2934,
+      "transit": 0.2378,
+      "walk": 0.0232,
+      "bike": 0.0662,
+      "wfh": 0.3376
+    }
+  },
+  "North Beach": {
+    "mean_commute_minutes": 29.21,
+    "driving_minutes": 26.29,
+    "transit_minutes": 32.13,
+    "median_income": 101415,
+    "vehicle_ownership_rate": 0.4704,
+    "mode_share": {
+      "drive": 0.2348,
+      "transit": 0.2196,
+      "walk": 0.2762,
+      "bike": 0.0137,
+      "wfh": 0.2374
+    }
+  },
+  "Northern Waterfront": {
+    "mean_commute_minutes": 32.9,
+    "driving_minutes": 29.61,
+    "transit_minutes": 36.19,
+    "median_income": 171667,
+    "vehicle_ownership_rate": 0.6249,
+    "mode_share": {
+      "drive": 0.1595,
+      "transit": 0.1797,
+      "walk": 0.3117,
+      "bike": 0.0324,
+      "wfh": 0.2989
+    }
+  },
+  "Oceanview": {
+    "mean_commute_minutes": 31.09,
+    "driving_minutes": 27.98,
+    "transit_minutes": 34.2,
+    "median_income": 147078,
+    "vehicle_ownership_rate": 0.859,
+    "mode_share": {
+      "drive": 0.5887,
+      "transit": 0.1842,
+      "walk": 0.0076,
+      "bike": 0.0035,
+      "wfh": 0.1991
+    }
+  },
+  "Outer Mission": {
+    "mean_commute_minutes": 34.15,
+    "driving_minutes": 30.74,
+    "transit_minutes": 37.57,
+    "median_income": 146544,
+    "vehicle_ownership_rate": 0.8482,
+    "mode_share": {
+      "drive": 0.5374,
+      "transit": 0.2954,
+      "walk": 0.0118,
+      "bike": 0.002,
+      "wfh": 0.1059
+    }
+  },
+  "Outer Richmond": {
+    "mean_commute_minutes": 32.58,
+    "driving_minutes": 29.32,
+    "transit_minutes": 35.83,
+    "median_income": 133362,
+    "vehicle_ownership_rate": 0.7995,
+    "mode_share": {
+      "drive": 0.4353,
+      "transit": 0.1996,
+      "walk": 0.0412,
+      "bike": 0.0226,
+      "wfh": 0.2745
+    }
+  },
+  "Outer Sunset": {
+    "mean_commute_minutes": 34.84,
+    "driving_minutes": 31.36,
+    "transit_minutes": 38.33,
+    "median_income": 138759,
+    "vehicle_ownership_rate": 0.8807,
+    "mode_share": {
+      "drive": 0.4938,
+      "transit": 0.1929,
+      "walk": 0.0342,
+      "bike": 0.0356,
+      "wfh": 0.2052
+    }
+  },
+  "Pacific Heights": {
+    "mean_commute_minutes": 30.12,
+    "driving_minutes": 27.11,
+    "transit_minutes": 33.13,
+    "median_income": 204873,
+    "vehicle_ownership_rate": 0.7606,
+    "mode_share": {
+      "drive": 0.3109,
+      "transit": 0.1497,
+      "walk": 0.095,
+      "bike": 0.0246,
+      "wfh": 0.3337
+    }
+  },
+  "Panhandle": {
+    "mean_commute_minutes": 33.2,
+    "driving_minutes": 29.88,
+    "transit_minutes": 36.52,
+    "median_income": 180152,
+    "vehicle_ownership_rate": 0.7034,
+    "mode_share": {
+      "drive": 0.1641,
+      "transit": 0.2148,
+      "walk": 0.1735,
+      "bike": 0.0589,
+      "wfh": 0.3577
+    }
+  },
+  "Parkmerced": {
+    "mean_commute_minutes": 31.8,
+    "driving_minutes": 28.62,
+    "transit_minutes": 34.98,
+    "median_income": 73190,
+    "vehicle_ownership_rate": 0.7729,
+    "mode_share": {
+      "drive": 0.5919,
+      "transit": 0.2037,
+      "walk": 0.048,
+      "bike": 0.0084,
+      "wfh": 0.1417
+    }
+  },
+  "Parkside": {
+    "mean_commute_minutes": 32.88,
+    "driving_minutes": 29.59,
+    "transit_minutes": 36.17,
+    "median_income": 163646,
+    "vehicle_ownership_rate": 0.907,
+    "mode_share": {
+      "drive": 0.4826,
+      "transit": 0.2213,
+      "walk": 0.0505,
+      "bike": 0.001,
+      "wfh": 0.2222
+    }
+  },
+  "Parnassus Heights": {
+    "mean_commute_minutes": 26.36,
+    "driving_minutes": 23.72,
+    "transit_minutes": 28.99,
+    "median_income": 179093,
+    "vehicle_ownership_rate": 0.7968,
+    "mode_share": {
+      "drive": 0.234,
+      "transit": 0.1733,
+      "walk": 0.2667,
+      "bike": 0.0363,
+      "wfh": 0.2511
+    }
+  },
+  "Peralta Heights": {
+    "mean_commute_minutes": 35.9,
+    "driving_minutes": 32.31,
+    "transit_minutes": 39.49,
+    "median_income": 139600,
+    "vehicle_ownership_rate": 0.8836,
+    "mode_share": {
+      "drive": 0.4162,
+      "transit": 0.1091,
+      "walk": 0.0125,
+      "bike": 0.0738,
+      "wfh": 0.3483
+    }
+  },
+  "Polk Gulch": {
+    "mean_commute_minutes": 32.12,
+    "driving_minutes": 28.91,
+    "transit_minutes": 35.33,
+    "median_income": 124953,
+    "vehicle_ownership_rate": 0.4485,
+    "mode_share": {
+      "drive": 0.1914,
+      "transit": 0.2046,
+      "walk": 0.2055,
+      "bike": 0.0335,
+      "wfh": 0.3154
+    }
+  },
+  "Portola": {
+    "mean_commute_minutes": 33.78,
+    "driving_minutes": 30.4,
+    "transit_minutes": 37.16,
+    "median_income": 124055,
+    "vehicle_ownership_rate": 0.8838,
+    "mode_share": {
+      "drive": 0.6357,
+      "transit": 0.1932,
+      "walk": 0.0162,
+      "bike": 0.0114,
+      "wfh": 0.1328
+    }
+  },
+  "Potrero Hill": {
+    "mean_commute_minutes": 31.71,
+    "driving_minutes": 28.54,
+    "transit_minutes": 34.88,
+    "median_income": 202339,
+    "vehicle_ownership_rate": 0.8499,
+    "mode_share": {
+      "drive": 0.2846,
+      "transit": 0.1461,
+      "walk": 0.0939,
+      "bike": 0.0718,
+      "wfh": 0.3682
+    }
+  },
+  "Presidio Heights": {
+    "mean_commute_minutes": 29.6,
+    "driving_minutes": 26.64,
+    "transit_minutes": 32.56,
+    "median_income": 177898,
+    "vehicle_ownership_rate": 0.6603,
+    "mode_share": {
+      "drive": 0.359,
+      "transit": 0.1902,
+      "walk": 0.0653,
+      "bike": 0.0362,
+      "wfh": 0.3029
+    }
+  },
+  "Presidio National Park": {
+    "mean_commute_minutes": 28.6,
+    "driving_minutes": 25.74,
+    "transit_minutes": 31.46,
+    "median_income": 236190,
+    "vehicle_ownership_rate": 0.9477,
+    "mode_share": {
+      "drive": 0.4678,
+      "transit": 0.0933,
+      "walk": 0.0858,
+      "bike": 0.0635,
+      "wfh": 0.2718
+    }
+  },
+  "Rincon Hill": {
+    "mean_commute_minutes": 27.89,
+    "driving_minutes": 25.1,
+    "transit_minutes": 30.67,
+    "median_income": 249879,
+    "vehicle_ownership_rate": 0.7799,
+    "mode_share": {
+      "drive": 0.1177,
+      "transit": 0.0818,
+      "walk": 0.2726,
+      "bike": 0.0482,
+      "wfh": 0.4482
+    }
+  },
+  "Russian Hill": {
+    "mean_commute_minutes": 34.34,
+    "driving_minutes": 30.9,
+    "transit_minutes": 37.77,
+    "median_income": 153940,
+    "vehicle_ownership_rate": 0.693,
+    "mode_share": {
+      "drive": 0.2285,
+      "transit": 0.1697,
+      "walk": 0.198,
+      "bike": 0.0228,
+      "wfh": 0.3587
+    }
+  },
+  "Seacliff": {
+    "mean_commute_minutes": 30.0,
+    "driving_minutes": 27.0,
+    "transit_minutes": 33.0,
+    "median_income": 246635,
+    "vehicle_ownership_rate": 0.9458,
+    "mode_share": {
+      "drive": 0.4418,
+      "transit": 0.052,
+      "walk": 0.0446,
+      "bike": 0.0157,
+      "wfh": 0.4344
+    }
+  },
+  "Showplace Square": {
+    "mean_commute_minutes": 30.6,
+    "driving_minutes": 27.54,
+    "transit_minutes": 33.66,
+    "median_income": 107989,
+    "vehicle_ownership_rate": 0.6523,
+    "mode_share": {
+      "drive": 0.3362,
+      "transit": 0.2477,
+      "walk": 0.2801,
+      "bike": 0.0162,
+      "wfh": 0.0936
+    }
+  },
+  "Silver Terrace": {
+    "mean_commute_minutes": 28.58,
+    "driving_minutes": 25.72,
+    "transit_minutes": 31.44,
+    "median_income": 130010,
+    "vehicle_ownership_rate": 0.9089,
+    "mode_share": {
+      "drive": 0.6485,
+      "transit": 0.1976,
+      "walk": 0.0315,
+      "bike": 0.0119,
+      "wfh": 0.0927
+    }
+  },
+  "South Beach": {
+    "mean_commute_minutes": 34.64,
+    "driving_minutes": 31.18,
+    "transit_minutes": 38.11,
+    "median_income": 145296,
+    "vehicle_ownership_rate": 0.5483,
+    "mode_share": {
+      "drive": 0.1407,
+      "transit": 0.2685,
+      "walk": 0.2399,
+      "bike": 0.0085,
+      "wfh": 0.2592
+    }
+  },
+  "South of Market": {
+    "mean_commute_minutes": 26.06,
+    "driving_minutes": 23.45,
+    "transit_minutes": 28.66,
+    "median_income": 125138,
+    "vehicle_ownership_rate": 0.4515,
+    "mode_share": {
+      "drive": 0.1612,
+      "transit": 0.2114,
+      "walk": 0.2669,
+      "bike": 0.0441,
+      "wfh": 0.2652
+    }
+  },
+  "St. Marys Park": {
+    "mean_commute_minutes": 30.4,
+    "driving_minutes": 27.36,
+    "transit_minutes": 33.44,
+    "median_income": 128947,
+    "vehicle_ownership_rate": 0.8754,
+    "mode_share": {
+      "drive": 0.5091,
+      "transit": 0.1614,
+      "walk": 0.0134,
+      "bike": 0.0401,
+      "wfh": 0.2452
+    }
+  },
+  "Stonestown": {
+    "mean_commute_minutes": 26.4,
+    "driving_minutes": 23.76,
+    "transit_minutes": 29.04,
+    "median_income": 68250,
+    "vehicle_ownership_rate": 0.6622,
+    "mode_share": {
+      "drive": 0.1929,
+      "transit": 0.2846,
+      "walk": 0.2823,
+      "bike": 0.0082,
+      "wfh": 0.1783
+    }
+  },
+  "Sunnydale": {
+    "mean_commute_minutes": 30.0,
+    "driving_minutes": 27.0,
+    "transit_minutes": 33.0,
+    "median_income": 42548,
+    "vehicle_ownership_rate": 0.7676,
+    "mode_share": {
+      "drive": 0.6207,
+      "transit": 0.2459,
+      "walk": 0.0201,
+      "bike": 0.0052,
+      "wfh": 0.1029
+    }
+  },
+  "Sunnyside": {
+    "mean_commute_minutes": 30.1,
+    "driving_minutes": 27.09,
+    "transit_minutes": 33.11,
+    "median_income": 197432,
+    "vehicle_ownership_rate": 0.9145,
+    "mode_share": {
+      "drive": 0.415,
+      "transit": 0.2234,
+      "walk": 0.0003,
+      "bike": 0.0093,
+      "wfh": 0.3099
+    }
+  },
+  "Sutro Heights": {
+    "mean_commute_minutes": 31.2,
+    "driving_minutes": 28.08,
+    "transit_minutes": 34.32,
+    "median_income": 126058,
+    "vehicle_ownership_rate": 0.8398,
+    "mode_share": {
+      "drive": 0.4653,
+      "transit": 0.1199,
+      "walk": 0.0541,
+      "bike": 0.0347,
+      "wfh": 0.3184
+    }
+  },
+  "Telegraph Hill": {
+    "mean_commute_minutes": 37.2,
+    "driving_minutes": 33.48,
+    "transit_minutes": 40.92,
+    "median_income": 158500,
+    "vehicle_ownership_rate": 0.6514,
+    "mode_share": {
+      "drive": 0.185,
+      "transit": 0.1079,
+      "walk": 0.2683,
+      "bike": 0.0031,
+      "wfh": 0.4079
+    }
+  },
+  "Tenderloin": {
+    "mean_commute_minutes": 26.14,
+    "driving_minutes": 23.53,
+    "transit_minutes": 28.75,
+    "median_income": 37984,
+    "vehicle_ownership_rate": 0.2173,
+    "mode_share": {
+      "drive": 0.1521,
+      "transit": 0.3496,
+      "walk": 0.2992,
+      "bike": 0.0394,
+      "wfh": 0.1122
+    }
+  },
+  "Treasure Island": {
+    "mean_commute_minutes": 37.1,
+    "driving_minutes": 33.39,
+    "transit_minutes": 40.81,
+    "median_income": 91750,
+    "vehicle_ownership_rate": 0.8525,
+    "mode_share": {
+      "drive": 0.3579,
+      "transit": 0.3379,
+      "walk": 0.1131,
+      "bike": 0.015,
+      "wfh": 0.1281
+    }
+  },
+  "Union Street": {
+    "mean_commute_minutes": 33.89,
+    "driving_minutes": 30.5,
+    "transit_minutes": 37.28,
+    "median_income": 192747,
+    "vehicle_ownership_rate": 0.725,
+    "mode_share": {
+      "drive": 0.2646,
+      "transit": 0.2168,
+      "walk": 0.0974,
+      "bike": 0.0291,
+      "wfh": 0.335
+    }
+  },
+  "University Mound": {
+    "mean_commute_minutes": 31.8,
+    "driving_minutes": 28.62,
+    "transit_minutes": 34.98,
+    "median_income": 114250,
+    "vehicle_ownership_rate": 0.8587,
+    "mode_share": {
+      "drive": 0.486,
+      "transit": 0.2703,
+      "walk": 0.0133,
+      "bike": 0.0063,
+      "wfh": 0.202
+    }
+  },
+  "Upper Market": {
+    "mean_commute_minutes": 32.96,
+    "driving_minutes": 29.67,
+    "transit_minutes": 36.26,
+    "median_income": 178160,
+    "vehicle_ownership_rate": 0.8618,
+    "mode_share": {
+      "drive": 0.4413,
+      "transit": 0.1766,
+      "walk": 0.0293,
+      "bike": 0.0123,
+      "wfh": 0.3072
+    }
+  },
+  "Visitacion Valley": {
+    "mean_commute_minutes": 32.28,
+    "driving_minutes": 29.05,
+    "transit_minutes": 35.51,
+    "median_income": 90504,
+    "vehicle_ownership_rate": 0.8356,
+    "mode_share": {
+      "drive": 0.6732,
+      "transit": 0.2057,
+      "walk": 0.0114,
+      "bike": 0.001,
+      "wfh": 0.0974
+    }
+  },
+  "West Portal": {
+    "mean_commute_minutes": 31.7,
+    "driving_minutes": 28.53,
+    "transit_minutes": 34.87,
+    "median_income": 190625,
+    "vehicle_ownership_rate": 0.8649,
+    "mode_share": {
+      "drive": 0.3901,
+      "transit": 0.1812,
+      "walk": 0.0228,
+      "bike": 0.0064,
+      "wfh": 0.3904
+    }
+  },
+  "Western Addition": {
+    "mean_commute_minutes": 33.91,
+    "driving_minutes": 30.52,
+    "transit_minutes": 37.3,
+    "median_income": 0,
+    "vehicle_ownership_rate": 0.5593,
+    "mode_share": {
+      "drive": 0.2607,
+      "transit": 0.2899,
+      "walk": 0.095,
+      "bike": 0.0291,
+      "wfh": 0.2849
+    }
+  },
+  "Westwood Park": {
+    "mean_commute_minutes": 33.9,
+    "driving_minutes": 30.51,
+    "transit_minutes": 37.29,
+    "median_income": 196389,
+    "vehicle_ownership_rate": 0.9143,
+    "mode_share": {
+      "drive": 0.4849,
+      "transit": 0.0867,
+      "walk": 0.0287,
+      "bike": 0.0057,
+      "wfh": 0.3336
+    }
+  },
+  "Yerba Buena Island": {
+    "mean_commute_minutes": 0.0,
+    "driving_minutes": 0.0,
+    "transit_minutes": 0.0,
+    "median_income": 0,
+    "vehicle_ownership_rate": 0.0,
+    "mode_share": {
+      "drive": 0.0,
+      "transit": 0.0,
+      "walk": 0.0,
+      "bike": 0.0,
+      "wfh": 0.0
+    }
+  }
+}
